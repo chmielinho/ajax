@@ -7,17 +7,25 @@ body {
   font-family: 'Noto Sans', sans-serif;
   margin: 0;
   padding: 0; }
-  body h1 {
-    font-family: 'Ewert', cursive;
-    font-size: 40px;
-    margin-top: 0; }
-  body button {
-    padding: 15px;
-    font-size: 18px; }
-  body p {
-    font-size: 22px;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.2);
-    padding: 20px; }
+  body section {
+    height: 100vh;
+    padding-top: 10vh; }
+    body section h1 {
+      font-family: 'Ewert', cursive;
+      font-size: 40px;
+      margin-top: 0; }
+    body section button {
+      padding: 15px;
+      font-size: 18px; }
+    body section p {
+      font-size: 22px;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.2);
+      padding: 20px; }
+    body section img {
+      padding-bottom: 50px; }
+    body section button a {
+      text-decoration: none;
+      color: #000; }
 
 /*# sourceMappingURL=style.css.map */

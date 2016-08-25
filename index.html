@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Ajax</title>
 	<meta name="description" content="Site with Ajax">
 	<meta name="author" content="Mateusz Chmielarz">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css"> 
 </head>
+
 <body>
-	<img src="http://sickhorses.com/wp-content/uploads/2010/03/chuck.jpg" alt="logo">
-	<h1>Best Chuck Norris Jokes</h1>
-	<button id="btn-joke">Random Next</button>
-	<p id="p-joke"></p>
-	
+	<section> 
+		<img src="http://sickhorses.com/wp-content/uploads/2010/03/chuck.jpg" alt="logo">
+		<h1>Best Chuck Norris Jokes</h1>
+		<p id="p-joke"></p>
+		<button id="btn-joke">Random Next</button>
+	</section>
+	<section>
+		<img src="http://addicted2success.com/wp-content/uploads/2012/04/inspirational-picture-quote-sign-this-is-it.jpg" alt="logo">
+		<h1>Random quote machine</h1> 
+		<div class="box">
+			<p class="quote"></p>
+			<h3 class="author"></h3> 
+		</div>
+		<div>
+			<button class="btn-quote">Random quote</button>
+			<button class="btn-tweet">
+				<i class="fa fa-lg fa-twitter"></i>  Twitter
+			</button> 
+		</div>
+	</section>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/script-js.js"></script>
-	<script src="js/script-jquery.js"></script>
 </body>
+
 </html>
